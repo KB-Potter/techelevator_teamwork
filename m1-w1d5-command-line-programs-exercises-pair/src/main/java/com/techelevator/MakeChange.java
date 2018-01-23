@@ -9,9 +9,17 @@ package com.techelevator;
  The change required is 76.35
  */
 public class MakeChange {
-
+	
 	public static void main(String[] args) {
-
+	
+		
+		double tendered = 100.00;
+		double bill = 23.65;
+		double change = ( tendered - bill );
+		
+		System.out.println ("The bill is " + bill);
+		System.out.println ("You paid " + tendered);
+		System.out.println("Your change is " + change);
+		
 	}
-
 }
